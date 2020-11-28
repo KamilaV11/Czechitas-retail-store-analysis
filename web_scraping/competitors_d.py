@@ -1,7 +1,7 @@
 
 import pandas as pd
 
-# nacteni souboru
+# nacteni
 with open('in/tables/Konkurece_Dracik.csv', encoding='utf-8') as adresy_dirty:
     radky = [radek.split('\n') for radek in adresy_dirty]
 
