@@ -1,0 +1,37 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/indicatorDrills/lrm9u59ihrj6k0ok",
+    "dumpTime": "2020-11-29T13:37:49Z",
+    "version": "1",
+    "content": {
+        "id": "lrm9u59ihrj6k0ok",
+        "name": "kpi_exposure_index_indicator_drill",
+        "type": "indicatorDrill",
+        "content": {
+            "blocks": [
+                {
+                    "type": "distribution"
+                },
+                {
+                    "type": "ranking"
+                },
+                {
+                    "type": "categories",
+                    "title": "Indicator by store",
+                    "description": "Indicator by store",
+                    "splitProperty": "vsechny_pobocky.store_id",
+                    "hideNullItems": true
+                }
+            ]
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-22T15:09:47Z",
+            "createdBy": "/rest/accounts/00uulrio7wrtJ9roK0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/indicatorDrills/lrm9u59ihrj6k0ok"
+            }
+        ]
+    }
+}

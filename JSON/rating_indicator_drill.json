@@ -1,0 +1,37 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/indicatorDrills/ibepot2rnn1vaop6",
+    "dumpTime": "2020-11-29T13:37:50Z",
+    "version": "1",
+    "content": {
+        "id": "ibepot2rnn1vaop6",
+        "name": "rating_indicator_drill",
+        "type": "indicatorDrill",
+        "content": {
+            "blocks": [
+                {
+                    "type": "distribution"
+                },
+                {
+                    "type": "ranking"
+                },
+                {
+                    "type": "categories",
+                    "title": "Indicator by store",
+                    "description": "Indicator by store",
+                    "splitProperty": "vsechny_pobocky.store_id",
+                    "hideNullItems": true
+                }
+            ]
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-22T15:09:49Z",
+            "createdBy": "/rest/accounts/00uulrio7wrtJ9roK0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/indicatorDrills/ibepot2rnn1vaop6"
+            }
+        ]
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/indicatorDrills/b2ukp025mgkko2mi",
+    "dumpTime": "2020-11-29T13:37:48Z",
+    "version": "1",
+    "content": {
+        "id": "b2ukp025mgkko2mi",
+        "name": "exposure_index_indicator_drill",
+        "type": "indicatorDrill",
+        "content": {
+            "blocks": [
+                {
+                    "type": "categories",
+                    "title": "Index expozice podle typu gravitačních bodů",
+                    "description": "Index expozice podle typu gravitačních bodů",
+                    "splitProperty": "poi_dwh.type_locale_label",
+                    "onDashboard": true,
+                    "hideNullItems": true,
+                    "orderBy": {
+                        "property": "poi_dwh.type_locale_label",
+                        "direction": "asc"
+                    }
+                },
+                {
+                    "type": "categories",
+                    "title": "Index expozice podle subtypu gravitačních bodů",
+                    "description": "Index expozice podle subtypu gravitačních bodů",
+                    "splitProperty": "poi_dwh.subtype_locale_label",
+                    "collapsed": true,
+                    "hideNullItems": true,
+                    "orderBy": {
+                        "property": "poi_dwh.subtype_locale_label",
+                        "direction": "asc"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-22T15:09:46Z",
+            "createdBy": "/rest/accounts/00uulrio7wrtJ9roK0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/indicatorDrills/b2ukp025mgkko2mi"
+            }
+        ]
+    }
+}

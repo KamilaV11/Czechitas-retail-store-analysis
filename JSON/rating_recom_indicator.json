@@ -1,0 +1,39 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/indicators/biqgtdqv5dvfp8sr",
+    "dumpTime": "2020-11-29T13:37:46Z",
+    "version": "3",
+    "content": {
+        "id": "biqgtdqv5dvfp8sr",
+        "name": "rating_recom_indicator",
+        "type": "indicator",
+        "title": "Rating Finance",
+        "description": "Rating of Finance",
+        "content": {
+            "metric": "/rest/projects/$projectId/md/metrics?name=rating_recom_metric",
+            "scale": "standard",
+            "distribution": "geometric",
+            "visualizations": {
+                "areas": false,
+                "dotmap": true,
+                "heatmap": false
+            },
+            "format": {
+                "type": "number",
+                "fraction": 0,
+                "symbol": " mark"
+            }
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-26T09:08:40Z",
+            "modifiedAt": "2020-11-26T20:49:18Z",
+            "createdBy": "/rest/accounts/00uujf92rrukJ50Hs0h7",
+            "modifiedBy": "/rest/accounts/00uulrio7wrtJ9roK0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/indicators/biqgtdqv5dvfp8sr"
+            }
+        ]
+    }
+}

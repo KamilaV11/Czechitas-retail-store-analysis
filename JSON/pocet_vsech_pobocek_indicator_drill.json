@@ -1,0 +1,41 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/indicatorDrills/tuum7cm1m2rdrsqd",
+    "dumpTime": "2020-11-29T13:37:50Z",
+    "version": "1",
+    "content": {
+        "id": "tuum7cm1m2rdrsqd",
+        "name": "pocet_vsech_pobocek_indicator_drill",
+        "type": "indicatorDrill",
+        "content": {
+            "blocks": [
+                {
+                    "type": "distribution"
+                },
+                {
+                    "type": "ranking"
+                },
+                {
+                    "type": "categories",
+                    "title": "Indikátor dle typu",
+                    "description": "Indikátor dle typu",
+                    "splitProperty": "vsechny_pobocky.nazev",
+                    "onDashboard": true,
+                    "orderBy": {
+                        "property": "vsechny_pobocky.nazev",
+                        "direction": "asc"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-22T15:09:48Z",
+            "createdBy": "/rest/accounts/00uulrio7wrtJ9roK0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/indicatorDrills/tuum7cm1m2rdrsqd"
+            }
+        ]
+    }
+}

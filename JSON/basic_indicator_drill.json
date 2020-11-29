@@ -1,0 +1,30 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/indicatorDrills/pan79g8lshrs2g38",
+    "dumpTime": "2020-11-29T13:37:48Z",
+    "version": "1",
+    "content": {
+        "id": "pan79g8lshrs2g38",
+        "name": "basic_indicator_drill",
+        "type": "indicatorDrill",
+        "content": {
+            "blocks": [
+                {
+                    "type": "distribution"
+                },
+                {
+                    "type": "ranking"
+                }
+            ]
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-22T15:09:43Z",
+            "createdBy": "/rest/accounts/00uulrio7wrtJ9roK0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/indicatorDrills/pan79g8lshrs2g38"
+            }
+        ]
+    }
+}

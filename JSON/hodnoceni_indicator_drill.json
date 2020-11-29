@@ -1,0 +1,57 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/indicatorDrills/jufnt4i4k99fmb4g",
+    "dumpTime": "2020-11-29T13:37:48Z",
+    "version": "8",
+    "content": {
+        "id": "jufnt4i4k99fmb4g",
+        "name": "hodnoceni_indicator_drill",
+        "type": "indicatorDrill",
+        "content": {
+            "blocks": [
+                {
+                    "type": "categories",
+                    "title": "Stores Recommendation",
+                    "description": "Stores Recommendation - what to do with specific store.",
+                    "splitProperty": "ratings.recommendation_txt",
+                    "onDashboard": true,
+                    "orderBy": {
+                        "property": "ratings.recommendation_txt",
+                        "direction": "asc"
+                    }
+                },
+                {
+                    "type": "categories",
+                    "title": "Stores Finance Rating",
+                    "description": "Stores Finance Rating",
+                    "splitProperty": "ratings.rating_finance_txt",
+                    "orderBy": {
+                        "property": "ratings.rating_finance_txt",
+                        "direction": "asc"
+                    }
+                },
+                {
+                    "type": "categories",
+                    "title": "Stores Location Rating",
+                    "description": "Stores Location Rating",
+                    "splitProperty": "ratings.rating_location_txt",
+                    "orderBy": {
+                        "property": "ratings.rating_location_txt",
+                        "direction": "asc"
+                    }
+                }
+            ]
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-26T21:00:18Z",
+            "modifiedAt": "2020-11-26T22:02:54Z",
+            "createdBy": "/rest/accounts/00uujf92rrukJ50Hs0h7",
+            "modifiedBy": "/rest/accounts/00uulrio7wrtJ9roK0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/indicatorDrills/jufnt4i4k99fmb4g"
+            }
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/metrics/lq33qoo7a102i7ug",
+    "dumpTime": "2020-11-29T13:37:53Z",
+    "version": "3",
+    "content": {
+        "id": "lq33qoo7a102i7ug",
+        "name": "pocet_obyvatel_na_pompo_pobocku_metric",
+        "type": "metric",
+        "content": {
+            "type": "function_divide",
+            "content": [
+                {
+                    "type": "function_sum",
+                    "content": [
+                        {
+                            "type": "property",
+                            "value": "demography_cz_age_0.value"
+                        }
+                    ]
+                },
+                {
+                    "type": "function_count",
+                    "content": [
+                        {
+                            "type": "property",
+                            "value": "vsechny_pobocky.store_id"
+                        }
+                    ]
+                }
+            ]
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-22T15:09:17Z",
+            "modifiedAt": "2020-11-24T21:54:21Z",
+            "createdBy": "/rest/accounts/00uulrio7wrtJ9roK0h7",
+            "modifiedBy": "/rest/accounts/00uujf92rrukJ50Hs0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/metrics/lq33qoo7a102i7ug"
+            }
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/metrics/vgshnstvtmvf1er0",
+    "dumpTime": "2020-11-29T13:37:55Z",
+    "version": "1",
+    "content": {
+        "id": "vgshnstvtmvf1er0",
+        "name": "rating_recom_metric",
+        "type": "metric",
+        "content": {
+            "type": "function_avg",
+            "content": [
+                {
+                    "type": "property",
+                    "value": "ratings.recommendation"
+                }
+            ]
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-26T09:08:39Z",
+            "createdBy": "/rest/accounts/00uujf92rrukJ50Hs0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/metrics/vgshnstvtmvf1er0"
+            }
+        ]
+    }
+}

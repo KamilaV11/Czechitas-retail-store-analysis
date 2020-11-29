@@ -1,0 +1,33 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/markers/gfs8276rg1tucjlj",
+    "dumpTime": "2020-11-29T13:37:51Z",
+    "version": "4",
+    "content": {
+        "id": "gfs8276rg1tucjlj",
+        "name": "marker_bambule",
+        "type": "marker",
+        "title": "Bambule",
+        "content": {
+            "style": "marker-b-purple",
+            "propertyFilters": [
+                {
+                    "propertyName": "competitor",
+                    "value": "BAMBULE",
+                    "operator": "eq"
+                }
+            ]
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-24T09:07:54Z",
+            "modifiedAt": "2020-11-25T13:24:36Z",
+            "createdBy": "/rest/accounts/00uujf92rrukJ50Hs0h7",
+            "modifiedBy": "/rest/accounts/00uulrio7wrtJ9roK0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/markers/gfs8276rg1tucjlj"
+            }
+        ]
+    }
+}

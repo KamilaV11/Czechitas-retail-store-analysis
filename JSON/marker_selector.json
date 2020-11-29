@@ -1,0 +1,60 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/markerSelectors/hnoj137f0cca87si",
+    "dumpTime": "2020-11-29T13:37:52Z",
+    "version": "7",
+    "content": {
+        "id": "hnoj137f0cca87si",
+        "name": "marker_selector",
+        "type": "markerSelector",
+        "content": {
+            "categories": [
+                {
+                    "dataset": "/rest/projects/$projectId/md/datasets?name=vsechny_pobocky",
+                    "markers": [
+                        {
+                            "name": "marker_pompo",
+                            "visible": true
+                        }
+                    ]
+                },
+                {
+                    "dataset": "/rest/projects/$projectId/md/datasets?name=competitors",
+                    "markers": [
+                        {
+                            "name": "marker_dracik",
+                            "visible": true
+                        },
+                        {
+                            "name": "marker_wiky",
+                            "visible": true
+                        },
+                        {
+                            "name": "marker_sparkys",
+                            "visible": true
+                        },
+                        {
+                            "name": "marker_bambule",
+                            "visible": true
+                        }
+                    ]
+                }
+            ],
+            "keepFiltered": {
+                "granularity": false,
+                "markers": false
+            }
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-22T15:09:04Z",
+            "modifiedAt": "2020-11-24T20:51:05Z",
+            "createdBy": "/rest/accounts/00uulrio7wrtJ9roK0h7",
+            "modifiedBy": "/rest/accounts/00uujf92rrukJ50Hs0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/markerSelectors/hnoj137f0cca87si"
+            }
+        ]
+    }
+}

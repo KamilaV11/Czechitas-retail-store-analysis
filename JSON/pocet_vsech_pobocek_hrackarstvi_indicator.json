@@ -1,0 +1,35 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/indicators/ubdvpoq14ti04l7t",
+    "dumpTime": "2020-11-29T13:37:45Z",
+    "version": "1",
+    "content": {
+        "id": "ubdvpoq14ti04l7t",
+        "name": "pocet_vsech_pobocek_hrackarstvi_indicator",
+        "type": "indicator",
+        "title": "Number of Toy stores",
+        "description": "Number of Toy stores",
+        "content": {
+            "metric": "/rest/projects/$projectId/md/metrics?name=pocet_vsech_pobocek_hrackarstvi_metric",
+            "scale": "standard",
+            "distribution": "geometric",
+            "visualizations": {
+                "dotmap": true,
+                "heatmap": true
+            },
+            "format": {
+                "type": "number",
+                "fraction": 0
+            }
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-24T20:07:15Z",
+            "createdBy": "/rest/accounts/00uujf92rrukJ50Hs0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/indicators/ubdvpoq14ti04l7t"
+            }
+        ]
+    }
+}

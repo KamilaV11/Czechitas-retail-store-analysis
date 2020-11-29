@@ -1,0 +1,33 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/markers/jan4df0jf3cr1f5i",
+    "dumpTime": "2020-11-29T13:37:51Z",
+    "version": "4",
+    "content": {
+        "id": "jan4df0jf3cr1f5i",
+        "name": "marker_pompo",
+        "type": "marker",
+        "title": "Pompo",
+        "content": {
+            "style": "marker-p-blue",
+            "propertyFilters": [
+                {
+                    "propertyName": "name_1",
+                    "value": "POMPO",
+                    "operator": "eq"
+                }
+            ]
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-22T15:08:57Z",
+            "modifiedAt": "2020-11-25T13:25:23Z",
+            "createdBy": "/rest/accounts/00uulrio7wrtJ9roK0h7",
+            "modifiedBy": "/rest/accounts/00uulrio7wrtJ9roK0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/markers/jan4df0jf3cr1f5i"
+            }
+        ]
+    }
+}

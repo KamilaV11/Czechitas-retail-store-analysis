@@ -1,0 +1,144 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/views/cnf2qspoae2cu4h7",
+    "dumpTime": "2020-11-29T13:37:56Z",
+    "version": "8",
+    "content": {
+        "id": "cnf2qspoae2cu4h7",
+        "name": "rating_view",
+        "type": "view",
+        "title": "Rating overview",
+        "description": "Rating overview shows different metrics over our stores and calculates final ratings. You can adjust different metric weights in filters.",
+        "content": {
+            "icon": "rent_a_house",
+            "order": 2,
+            "dashboard": "/rest/projects/$projectId/md/dashboards?name=rating_dashboard",
+            "defaultGranularity": "/rest/projects/$projectId/md/datasets?name=vsechny_pobocky",
+            "defaultVisualized": "/rest/projects/$projectId/md/indicators?name=final_rating_indicator",
+            "defaultVisualization": "dotmap",
+            "filterGroup": [
+                {
+                    "type": "indicator",
+                    "indicator": "/rest/projects/$projectId/md/indicators?name=final_rating_indicator"
+                },
+                {
+                    "type": "indicator",
+                    "indicator": "/rest/projects/$projectId/md/indicators?name=rating_revenue_indicator"
+                },
+                {
+                    "type": "indicator",
+                    "indicator": "/rest/projects/$projectId/md/indicators?name=rating_profit_indicator"
+                },
+                {
+                    "type": "indicator",
+                    "indicator": "/rest/projects/$projectId/md/indicators?name=rating_gross_margin_indicator"
+                },
+                {
+                    "type": "indicator",
+                    "indicator": "/rest/projects/$projectId/md/indicators?name=rating_revenue_per_m_indicator"
+                },
+                {
+                    "type": "indicator",
+                    "indicator": "/rest/projects/$projectId/md/indicators?name=rating_exposure_indicator"
+                },
+                {
+                    "type": "indicator",
+                    "indicator": "/rest/projects/$projectId/md/indicators?name=rating_demography_indicator"
+                },
+                {
+                    "type": "variables",
+                    "title": "Final rating weights",
+                    "variables": [
+                        {
+                            "name": "ranking_revenue_variable",
+                            "title": "KPI Revenue",
+                            "minValue": 0.0,
+                            "maxValue": 5.0,
+                            "defaultValue": 1.0,
+                            "format": {
+                                "type": "number",
+                                "fraction": 1
+                            }
+                        },
+                        {
+                            "name": "ranking_profit_variable",
+                            "title": "KPI Profit",
+                            "minValue": 0.0,
+                            "maxValue": 5.0,
+                            "defaultValue": 1.0,
+                            "format": {
+                                "type": "number",
+                                "fraction": 1
+                            }
+                        },
+                        {
+                            "name": "ranking_gross_margin_variable",
+                            "title": "KPI Gross Margin %",
+                            "minValue": 0.0,
+                            "maxValue": 5.0,
+                            "defaultValue": 1.0,
+                            "format": {
+                                "type": "number",
+                                "fraction": 1
+                            }
+                        },
+                        {
+                            "name": "ranking_revenue_per_m_variable",
+                            "title": "KPI Revenue per rent",
+                            "minValue": 0.0,
+                            "maxValue": 5.0,
+                            "defaultValue": 1.0,
+                            "format": {
+                                "type": "number",
+                                "fraction": 1
+                            }
+                        },
+                        {
+                            "name": "ranking_exposure_variable",
+                            "title": "KPI Exposure Index",
+                            "minValue": 0.0,
+                            "maxValue": 5.0,
+                            "defaultValue": 1.0,
+                            "format": {
+                                "type": "number",
+                                "fraction": 1
+                            }
+                        },
+                        {
+                            "name": "ranking_demography_variable",
+                            "title": "KPI Demography Index",
+                            "minValue": 0.0,
+                            "maxValue": 5.0,
+                            "defaultValue": 1.0,
+                            "format": {
+                                "type": "number",
+                                "fraction": 1
+                            }
+                        }
+                    ]
+                }
+            ],
+            "mapOptions": {
+                "center": {
+                    "lat": 49.9,
+                    "lng": 15.3
+                },
+                "zoom": 8,
+                "minZoom": 4,
+                "maxZoom": 18,
+                "tileLayer": "mapbox"
+            }
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-22T15:09:56Z",
+            "modifiedAt": "2020-11-26T22:17:20Z",
+            "createdBy": "/rest/accounts/00uulrio7wrtJ9roK0h7",
+            "modifiedBy": "/rest/accounts/00uulrio7wrtJ9roK0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/views/cnf2qspoae2cu4h7"
+            }
+        ]
+    }
+}

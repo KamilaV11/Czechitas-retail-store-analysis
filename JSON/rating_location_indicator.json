@@ -1,0 +1,39 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/indicators/nio9vav301a1jso6",
+    "dumpTime": "2020-11-29T13:37:46Z",
+    "version": "3",
+    "content": {
+        "id": "nio9vav301a1jso6",
+        "name": "rating_location_indicator",
+        "type": "indicator",
+        "title": "Rating Location",
+        "description": "Rating of Location",
+        "content": {
+            "metric": "/rest/projects/$projectId/md/metrics?name=rating_location_metric",
+            "scale": "standard",
+            "distribution": "geometric",
+            "visualizations": {
+                "areas": false,
+                "dotmap": true,
+                "heatmap": false
+            },
+            "format": {
+                "type": "number",
+                "fraction": 0,
+                "symbol": " points"
+            }
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-26T09:08:39Z",
+            "modifiedAt": "2020-11-26T20:40:13Z",
+            "createdBy": "/rest/accounts/00uujf92rrukJ50Hs0h7",
+            "modifiedBy": "/rest/accounts/00uulrio7wrtJ9roK0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/indicators/nio9vav301a1jso6"
+            }
+        ]
+    }
+}

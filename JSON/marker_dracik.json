@@ -1,0 +1,33 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/markers/dvuudr9tqh2o7hv0",
+    "dumpTime": "2020-11-29T13:37:51Z",
+    "version": "6",
+    "content": {
+        "id": "dvuudr9tqh2o7hv0",
+        "name": "marker_dracik",
+        "type": "marker",
+        "title": "Dracik",
+        "content": {
+            "style": "marker-d-orange",
+            "propertyFilters": [
+                {
+                    "propertyName": "competitor",
+                    "value": "DRACIK",
+                    "operator": "eq"
+                }
+            ]
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-24T08:57:30Z",
+            "modifiedAt": "2020-11-25T13:24:37Z",
+            "createdBy": "/rest/accounts/00uujf92rrukJ50Hs0h7",
+            "modifiedBy": "/rest/accounts/00uulrio7wrtJ9roK0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/markers/dvuudr9tqh2o7hv0"
+            }
+        ]
+    }
+}

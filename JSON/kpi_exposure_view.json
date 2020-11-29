@@ -1,0 +1,40 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/views/rk9vgr7du4t82f9f",
+    "dumpTime": "2020-11-29T13:37:56Z",
+    "version": "5",
+    "content": {
+        "id": "rk9vgr7du4t82f9f",
+        "name": "kpi_exposure_view",
+        "type": "view",
+        "title": "KPI Exposure",
+        "description": "Exposure index view",
+        "content": {
+            "icon": "location_mark",
+            "order": 5,
+            "dashboard": "/rest/projects/$projectId/md/dashboards?name=kpi_exposure_dashboard",
+            "defaultVisualized": "/rest/projects/$projectId/md/indicators?name=exp_index_indicator",
+            "mapOptions": {
+                "center": {
+                    "lat": 49.9,
+                    "lng": 15.3
+                },
+                "zoom": 8,
+                "minZoom": 4,
+                "maxZoom": 18,
+                "tileLayer": "mapbox"
+            }
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-22T15:09:56Z",
+            "modifiedAt": "2020-11-27T12:34:26Z",
+            "createdBy": "/rest/accounts/00uulrio7wrtJ9roK0h7",
+            "modifiedBy": "/rest/accounts/00uulrio7wrtJ9roK0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/views/rk9vgr7du4t82f9f"
+            }
+        ]
+    }
+}

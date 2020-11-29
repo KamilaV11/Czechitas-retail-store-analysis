@@ -1,0 +1,33 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/markers/nrj8hicjbjh5gdll",
+    "dumpTime": "2020-11-29T13:37:51Z",
+    "version": "4",
+    "content": {
+        "id": "nrj8hicjbjh5gdll",
+        "name": "marker_sparkys",
+        "type": "marker",
+        "title": "Sparkys",
+        "content": {
+            "style": "marker-s-yellow",
+            "propertyFilters": [
+                {
+                    "propertyName": "competitor",
+                    "value": "SPARKYS",
+                    "operator": "eq"
+                }
+            ]
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-24T09:04:35Z",
+            "modifiedAt": "2020-11-25T13:24:37Z",
+            "createdBy": "/rest/accounts/00uujf92rrukJ50Hs0h7",
+            "modifiedBy": "/rest/accounts/00uulrio7wrtJ9roK0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/markers/nrj8hicjbjh5gdll"
+            }
+        ]
+    }
+}

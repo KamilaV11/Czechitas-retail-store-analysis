@@ -1,0 +1,36 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/indicators/ctjnufflqele34kb",
+    "dumpTime": "2020-11-29T13:37:46Z",
+    "version": "1",
+    "content": {
+        "id": "ctjnufflqele34kb",
+        "name": "rating_fix_cost_vs_revenue_indicator",
+        "type": "indicator",
+        "title": "Rating Fix cost vs Revenue",
+        "description": "Rating Fix cost vs Revenue",
+        "content": {
+            "metric": "/rest/projects/$projectId/md/metrics?name=rating_fix_cost_vs_revenue_metric",
+            "scale": "standard",
+            "distribution": "geometric",
+            "visualizations": {
+                "areas": true,
+                "dotmap": true,
+                "heatmap": true
+            },
+            "format": {
+                "type": "number",
+                "fraction": 0
+            }
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-22T15:09:39Z",
+            "createdBy": "/rest/accounts/00uulrio7wrtJ9roK0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/indicators/ctjnufflqele34kb"
+            }
+        ]
+    }
+}

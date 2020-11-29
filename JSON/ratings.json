@@ -1,0 +1,161 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/datasets/scge95epr3i44u6j",
+    "dumpTime": "2020-11-29T13:37:42Z",
+    "version": "12",
+    "content": {
+        "id": "scge95epr3i44u6j",
+        "name": "ratings",
+        "type": "dataset",
+        "title": "Ratings Pompo",
+        "description": "Online and offline transactions done by our customers.",
+        "ref": {
+            "type": "dwh",
+            "subtype": "basic",
+            "table": "ratings_7",
+            "primaryKey": "store_year_id",
+            "categorizable": true,
+            "fullTextIndex": false,
+            "properties": [
+                {
+                    "foreignKey": "vsechny_pobocky",
+                    "name": "store_id",
+                    "title": "store_id",
+                    "column": "store_id",
+                    "type": "integer",
+                    "filterable": true
+                },
+                {
+                    "name": "store_year_id",
+                    "title": "store_year_id",
+                    "column": "store_year_id",
+                    "type": "string",
+                    "filterable": true
+                },
+                {
+                    "name": "year",
+                    "title": "year",
+                    "column": "year",
+                    "type": "integer",
+                    "filterable": true
+                },
+                {
+                    "name": "rating_revenue",
+                    "title": "rating_revenue",
+                    "column": "rating_revenue",
+                    "type": "decimal(19,6)",
+                    "filterable": true
+                },
+                {
+                    "name": "rating_profit_goods",
+                    "title": "rating_profit_goods",
+                    "column": "rating_profit_goods",
+                    "type": "decimal(19,6)",
+                    "filterable": true
+                },
+                {
+                    "name": "rating_gross_profit_goods",
+                    "title": "rating_gross_profit_goods",
+                    "column": "rating_gross_profit_goods",
+                    "type": "decimal(19,6)",
+                    "filterable": true
+                },
+                {
+                    "name": "rating_profit",
+                    "title": "rating_profit",
+                    "column": "rating_profit",
+                    "type": "decimal(19,6)",
+                    "filterable": false
+                },
+                {
+                    "name": "rating_gross_margin",
+                    "title": "rating_gross_margin",
+                    "column": "rating_gross_margin",
+                    "type": "decimal(19,6)",
+                    "filterable": false
+                },
+                {
+                    "name": "rating_revenue_per_m",
+                    "title": "rating_revenue_per_m",
+                    "column": "rating_revenue_per_m",
+                    "type": "decimal(19,6)",
+                    "filterable": true
+                },
+                {
+                    "name": "rating_fix_cost_vs_revenue",
+                    "title": "rating_fix_cost_vs_revenue",
+                    "column": "rating_fix_cost_vs_revenue",
+                    "type": "decimal(19,6)",
+                    "filterable": true
+                },
+                {
+                    "name": "rating_exposure",
+                    "title": "rating_exposure",
+                    "column": "rating_exposure",
+                    "type": "decimal(19,6)",
+                    "filterable": true
+                },
+                {
+                    "name": "rating_demography",
+                    "title": "rating_demography",
+                    "column": "rating_demography",
+                    "type": "decimal(19,6)",
+                    "filterable": true
+                },
+                {
+                    "name": "rating_finance",
+                    "title": "rating_finance",
+                    "column": "rating_finance",
+                    "type": "decimal(19,6)",
+                    "filterable": true
+                },
+                {
+                    "name": "rating_location",
+                    "title": "rating_location",
+                    "column": "rating_location",
+                    "type": "decimal(19,6)",
+                    "filterable": true
+                },
+                {
+                    "name": "recommendation",
+                    "title": "recommendation",
+                    "column": "recommendation",
+                    "type": "decimal(19,6)",
+                    "filterable": true
+                },
+                {
+                    "name": "rating_location_txt",
+                    "title": "rating_location_txt",
+                    "column": "rating_location_txt",
+                    "type": "string",
+                    "filterable": true
+                },
+                {
+                    "name": "rating_finance_txt",
+                    "title": "rating_finance_txt",
+                    "column": "rating_finance_txt",
+                    "type": "string",
+                    "filterable": true
+                },
+                {
+                    "name": "recommendation_txt",
+                    "title": "recommendation_txt",
+                    "column": "recommendation_txt",
+                    "type": "string",
+                    "filterable": true
+                }
+            ]
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-22T15:08:49Z",
+            "modifiedAt": "2020-11-26T20:48:54Z",
+            "createdBy": "/rest/accounts/00uulrio7wrtJ9roK0h7",
+            "modifiedBy": "/rest/accounts/00uujf92rrukJ50Hs0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/datasets/scge95epr3i44u6j"
+            }
+        ]
+    }
+}

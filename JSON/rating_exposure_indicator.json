@@ -1,0 +1,39 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/indicators/h13jfq192vl1llrj",
+    "dumpTime": "2020-11-29T13:37:45Z",
+    "version": "2",
+    "content": {
+        "id": "h13jfq192vl1llrj",
+        "name": "rating_exposure_indicator",
+        "type": "indicator",
+        "title": "Rating Exposure",
+        "description": "Rating of Exposure index in 200m Area",
+        "content": {
+            "metric": "/rest/projects/$projectId/md/metrics?name=rating_exposure_metric",
+            "scale": "standard",
+            "distribution": "geometric",
+            "visualizations": {
+                "areas": true,
+                "dotmap": true,
+                "heatmap": true
+            },
+            "format": {
+                "type": "number",
+                "fraction": 0,
+                "symbol": " points"
+            }
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-22T15:09:39Z",
+            "modifiedAt": "2020-11-22T21:16:05Z",
+            "createdBy": "/rest/accounts/00uulrio7wrtJ9roK0h7",
+            "modifiedBy": "/rest/accounts/00uujf92rrukJ50Hs0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/indicators/h13jfq192vl1llrj"
+            }
+        ]
+    }
+}

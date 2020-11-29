@@ -1,0 +1,36 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/indicators/a8ml04duh7qo5lpr",
+    "dumpTime": "2020-11-29T13:37:46Z",
+    "version": "1",
+    "content": {
+        "id": "a8ml04duh7qo5lpr",
+        "name": "rating_profit_goods_indicator",
+        "type": "indicator",
+        "title": "Rating profit goods indicator",
+        "description": "Rating profit goods indicator",
+        "content": {
+            "metric": "/rest/projects/$projectId/md/metrics?name=rating_profit_goods_metric",
+            "scale": "standard",
+            "distribution": "geometric",
+            "visualizations": {
+                "areas": true,
+                "dotmap": true,
+                "heatmap": true
+            },
+            "format": {
+                "type": "number",
+                "fraction": 0
+            }
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-22T15:09:40Z",
+            "createdBy": "/rest/accounts/00uulrio7wrtJ9roK0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/indicators/a8ml04duh7qo5lpr"
+            }
+        ]
+    }
+}

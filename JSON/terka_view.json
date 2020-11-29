@@ -1,0 +1,89 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/views/vnk1sl8qc0c0h45r",
+    "dumpTime": "2020-11-29T13:37:56Z",
+    "version": "12",
+    "content": {
+        "id": "vnk1sl8qc0c0h45r",
+        "name": "terka_view",
+        "type": "view",
+        "title": "Demography",
+        "description": "Shows number of toy stores (ours + competitors) and the number of potential customers",
+        "content": {
+            "icon": "workgroup_people",
+            "order": 3,
+            "dashboard": "/rest/projects/$projectId/md/dashboards?name=terka_dashboard",
+            "markerSelector": "/rest/projects/$projectId/md/markerSelectors?name=marker_selector",
+            "defaultGranularity": "/rest/projects/$projectId/md/datasets?name=okres_dwh",
+            "defaultVisualized": "/rest/projects/$projectId/md/indicators?name=pocet_vsech_pobocek_pompo_indicator",
+            "filterGroup": [
+                {
+                    "type": "indicator",
+                    "indicator": "/rest/projects/$projectId/md/indicators?name=pocet_vsech_pobocek_pompo_indicator"
+                },
+                {
+                    "type": "indicator",
+                    "indicator": "/rest/projects/$projectId/md/indicators?name=residents_cz_0_indicator"
+                },
+                {
+                    "type": "indicator",
+                    "indicator": "/rest/projects/$projectId/md/indicators?name=pocet_obyvatel_na_pompo_pobocku_indicator"
+                },
+                {
+                    "type": "indicator",
+                    "indicator": "/rest/projects/$projectId/md/indicators?name=pocet_obyvatel_na_hrackarstvi_indicator"
+                },
+                {
+                    "type": "multiSelect",
+                    "property": "competitors.competitor",
+                    "orderBy": [
+                        {
+                            "property": "competitors.competitor",
+                            "direction": "asc"
+                        }
+                    ]
+                }
+            ],
+            "mapOptions": {
+                "center": {
+                    "lat": 49.9,
+                    "lng": 15.3
+                },
+                "zoom": 8,
+                "minZoom": 4,
+                "maxZoom": 18,
+                "tileLayer": "mapbox"
+            },
+            "mapContextMenu": {
+                "items": [
+                    {
+                        "type": "googleSatellite"
+                    },
+                    {
+                        "type": "googleStreetView"
+                    },
+                    {
+                        "type": "mapyczOrtophoto"
+                    },
+                    {
+                        "type": "mapyczPanorama"
+                    },
+                    {
+                        "type": "cuzkParcelInfo"
+                    }
+                ]
+            }
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-22T15:09:57Z",
+            "modifiedAt": "2020-11-27T12:34:27Z",
+            "createdBy": "/rest/accounts/00uulrio7wrtJ9roK0h7",
+            "modifiedBy": "/rest/accounts/00uulrio7wrtJ9roK0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/views/vnk1sl8qc0c0h45r"
+            }
+        ]
+    }
+}

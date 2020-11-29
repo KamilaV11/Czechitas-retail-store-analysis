@@ -1,0 +1,21 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/indicatorDrills/tqat9fdd226mskr6",
+    "dumpTime": "2020-11-29T13:37:48Z",
+    "version": "1",
+    "content": {
+        "id": "tqat9fdd226mskr6",
+        "name": "empty_indicator_drill",
+        "type": "indicatorDrill",
+        "content": {},
+        "accessInfo": {
+            "createdAt": "2020-11-22T15:09:46Z",
+            "createdBy": "/rest/accounts/00uulrio7wrtJ9roK0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/indicatorDrills/tqat9fdd226mskr6"
+            }
+        ]
+    }
+}

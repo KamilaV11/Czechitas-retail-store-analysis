@@ -1,0 +1,40 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/metrics/v13mmlo7g64fep55",
+    "dumpTime": "2020-11-29T13:37:54Z",
+    "version": "2",
+    "content": {
+        "id": "v13mmlo7g64fep55",
+        "name": "rating_finance_metric",
+        "type": "metric",
+        "content": {
+            "type": "function_multiply",
+            "content": [
+                {
+                    "type": "function_avg",
+                    "content": [
+                        {
+                            "type": "property",
+                            "value": "ratings.rating_finance"
+                        }
+                    ]
+                },
+                {
+                    "type": "number",
+                    "value": 100.0
+                }
+            ]
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-26T08:52:29Z",
+            "modifiedAt": "2020-11-26T09:01:19Z",
+            "createdBy": "/rest/accounts/00uujf92rrukJ50Hs0h7",
+            "modifiedBy": "/rest/accounts/00uujf92rrukJ50Hs0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/metrics/v13mmlo7g64fep55"
+            }
+        ]
+    }
+}

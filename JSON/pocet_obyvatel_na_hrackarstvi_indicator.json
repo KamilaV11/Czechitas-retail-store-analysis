@@ -1,0 +1,38 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/indicators/m0aekr4993jd1fl9",
+    "dumpTime": "2020-11-29T13:37:45Z",
+    "version": "3",
+    "content": {
+        "id": "m0aekr4993jd1fl9",
+        "name": "pocet_obyvatel_na_hrackarstvi_indicator",
+        "type": "indicator",
+        "title": "Number of customers per Toy Store",
+        "description": "Number of customers",
+        "content": {
+            "metric": "/rest/projects/$projectId/md/metrics?name=pocet_obyvatel_na_hrackarstvi_metric",
+            "scale": "standard",
+            "distribution": "geometric",
+            "visualizations": {
+                "heatmap": false,
+                "dominance": true
+            },
+            "format": {
+                "type": "number",
+                "fraction": 0,
+                "symbol": ""
+            }
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-24T18:49:52Z",
+            "modifiedAt": "2020-11-24T20:00:10Z",
+            "createdBy": "/rest/accounts/00uujf92rrukJ50Hs0h7",
+            "modifiedBy": "/rest/accounts/00uujf92rrukJ50Hs0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/indicators/m0aekr4993jd1fl9"
+            }
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/markers/olo78rs05vgkdab7",
+    "dumpTime": "2020-11-29T13:37:52Z",
+    "version": "7",
+    "content": {
+        "id": "olo78rs05vgkdab7",
+        "name": "marker_wiky",
+        "type": "marker",
+        "title": "Wiky",
+        "content": {
+            "style": "marker-w-green",
+            "propertyFilters": [
+                {
+                    "propertyName": "competitor",
+                    "value": "WIKY",
+                    "operator": "eq"
+                }
+            ]
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-24T09:01:20Z",
+            "modifiedAt": "2020-11-25T13:24:38Z",
+            "createdBy": "/rest/accounts/00uujf92rrukJ50Hs0h7",
+            "modifiedBy": "/rest/accounts/00uulrio7wrtJ9roK0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/markers/olo78rs05vgkdab7"
+            }
+        ]
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/indicators/jd4ccs5h70kr541c",
+    "dumpTime": "2020-11-29T13:37:44Z",
+    "version": "25",
+    "content": {
+        "id": "jd4ccs5h70kr541c",
+        "name": "final_rating_indicator",
+        "type": "indicator",
+        "title": "Rating Final Dynamic",
+        "description": "Final rating according to metric weights in filters. ",
+        "content": {
+            "metric": "/rest/projects/$projectId/md/metrics?name=rating_final_dynamic_metric",
+            "scale": "standard",
+            "distribution": "uniform",
+            "visualizations": {
+                "areas": false,
+                "grid": false,
+                "zones": false,
+                "line": false,
+                "dotmap": true,
+                "heatmap": false
+            },
+            "format": {
+                "type": "number",
+                "fraction": 0,
+                "symbol": ""
+            },
+            "metricId": ""
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-22T15:09:32Z",
+            "modifiedAt": "2020-11-25T20:56:20Z",
+            "createdBy": "/rest/accounts/00uulrio7wrtJ9roK0h7",
+            "modifiedBy": "/rest/accounts/00uujf92rrukJ50Hs0h7"
+        },
+        "etag": "W/\"jd4ccs5h70kr541c-24\"",
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/indicators/jd4ccs5h70kr541c"
+            }
+        ]
+    }
+}

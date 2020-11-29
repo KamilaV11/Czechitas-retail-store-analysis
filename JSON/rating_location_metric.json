@@ -1,0 +1,40 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/metrics/ad95qdd9h95h0mpi",
+    "dumpTime": "2020-11-29T13:37:54Z",
+    "version": "2",
+    "content": {
+        "id": "ad95qdd9h95h0mpi",
+        "name": "rating_location_metric",
+        "type": "metric",
+        "content": {
+            "type": "function_multiply",
+            "content": [
+                {
+                    "type": "function_avg",
+                    "content": [
+                        {
+                            "type": "property",
+                            "value": "ratings.rating_location"
+                        }
+                    ]
+                },
+                {
+                    "type": "number",
+                    "value": 100.0
+                }
+            ]
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-26T09:08:39Z",
+            "modifiedAt": "2020-11-26T09:11:07Z",
+            "createdBy": "/rest/accounts/00uujf92rrukJ50Hs0h7",
+            "modifiedBy": "/rest/accounts/00uujf92rrukJ50Hs0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/metrics/ad95qdd9h95h0mpi"
+            }
+        ]
+    }
+}

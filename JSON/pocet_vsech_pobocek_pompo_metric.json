@@ -1,0 +1,40 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/metrics/htoke3a9hl9cbmd2",
+    "dumpTime": "2020-11-29T13:37:54Z",
+    "version": "7",
+    "content": {
+        "id": "htoke3a9hl9cbmd2",
+        "name": "pocet_vsech_pobocek_pompo_metric",
+        "type": "metric",
+        "content": {
+            "type": "function_ifnull",
+            "content": [
+                {
+                    "type": "function_count",
+                    "content": [
+                        {
+                            "type": "property",
+                            "value": "vsechny_pobocky.store_id"
+                        }
+                    ]
+                },
+                {
+                    "type": "number",
+                    "value": 0.0
+                }
+            ]
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-22T15:09:20Z",
+            "modifiedAt": "2020-11-25T08:15:12Z",
+            "createdBy": "/rest/accounts/00uulrio7wrtJ9roK0h7",
+            "modifiedBy": "/rest/accounts/00uujf92rrukJ50Hs0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/metrics/htoke3a9hl9cbmd2"
+            }
+        ]
+    }
+}

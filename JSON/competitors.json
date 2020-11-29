@@ -1,0 +1,122 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/datasets/qjgj0bl2jgpjr2j3",
+    "dumpTime": "2020-11-29T13:37:40Z",
+    "version": "3",
+    "content": {
+        "id": "qjgj0bl2jgpjr2j3",
+        "name": "competitors",
+        "type": "dataset",
+        "title": "Competitors",
+        "description": "Competitors of Pompo",
+        "properties": {
+            "featureTitle": {
+                "type": "property",
+                "value": "competitor"
+            },
+            "featureSubtitle": {
+                "type": "property",
+                "value": "name"
+            }
+        },
+        "ref": {
+            "type": "dwh",
+            "subtype": "geometryPoint",
+            "visualizations": [
+                {
+                    "type": "dotmap"
+                },
+                {
+                    "type": "heatmap"
+                }
+            ],
+            "table": "competitors_2",
+            "primaryKey": "id",
+            "categorizable": true,
+            "fullTextIndex": false,
+            "properties": [
+                {
+                    "name": "id",
+                    "title": "id",
+                    "column": "id",
+                    "type": "string",
+                    "filterable": true
+                },
+                {
+                    "name": "competitor",
+                    "title": "competitor",
+                    "column": "competitor",
+                    "type": "string",
+                    "filterable": true
+                },
+                {
+                    "name": "name",
+                    "title": "name",
+                    "column": "name",
+                    "type": "string",
+                    "filterable": true
+                },
+                {
+                    "name": "street",
+                    "title": "street",
+                    "column": "street",
+                    "type": "string",
+                    "filterable": true
+                },
+                {
+                    "name": "city",
+                    "title": "city",
+                    "column": "city",
+                    "type": "string",
+                    "filterable": true
+                },
+                {
+                    "name": "zip",
+                    "title": "zip",
+                    "column": "zip",
+                    "type": "string",
+                    "filterable": true
+                },
+                {
+                    "name": "lat",
+                    "title": "lat",
+                    "column": "lat",
+                    "type": "latitude",
+                    "filterable": true
+                },
+                {
+                    "name": "lng",
+                    "title": "lng",
+                    "column": "lng",
+                    "type": "longitude",
+                    "filterable": true
+                },
+                {
+                    "foreignKey": "chaos",
+                    "name": "chaos_id",
+                    "title": "chaos_id",
+                    "column": "chaos_id",
+                    "type": "string",
+                    "filterable": true
+                },
+                {
+                    "foreignKey": "zsj_d_dwh",
+                    "name": "kod_zsj_d",
+                    "title": "kod_zsj_d",
+                    "column": "kod_zsj_d",
+                    "type": "string",
+                    "filterable": true
+                }
+            ]
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-22T15:08:45Z",
+            "createdBy": "/rest/accounts/00uulrio7wrtJ9roK0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/datasets/qjgj0bl2jgpjr2j3"
+            }
+        ]
+    }
+}

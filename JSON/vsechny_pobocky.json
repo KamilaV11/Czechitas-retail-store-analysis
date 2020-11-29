@@ -1,0 +1,179 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/datasets/da8f9n7khs22id54",
+    "dumpTime": "2020-11-29T13:37:43Z",
+    "version": "19",
+    "content": {
+        "id": "da8f9n7khs22id54",
+        "name": "vsechny_pobocky",
+        "type": "dataset",
+        "title": "Pompo Stores",
+        "properties": {
+            "featureTitle": {
+                "type": "function",
+                "value": "concat",
+                "content": [
+                    {
+                        "type": "property",
+                        "value": "name_2"
+                    }
+                ]
+            },
+            "featureSubtitle": {
+                "type": "function",
+                "value": "concat",
+                "content": [
+                    {
+                        "type": "text",
+                        "value": " "
+                    }
+                ]
+            }
+        },
+        "ref": {
+            "type": "dwh",
+            "subtype": "geometryPoint",
+            "visualizations": [
+                {
+                    "type": "dotmap"
+                }
+            ],
+            "table": "vsechny_pobocky_7",
+            "primaryKey": "store_id",
+            "categorizable": true,
+            "fullTextIndex": false,
+            "properties": [
+                {
+                    "name": "store_id",
+                    "title": "store_id",
+                    "column": "store_id",
+                    "type": "integer",
+                    "filterable": true
+                },
+                {
+                    "name": "name_1",
+                    "title": "name_1",
+                    "column": "name_1",
+                    "type": "string",
+                    "filterable": true
+                },
+                {
+                    "name": "name_2",
+                    "title": "name_2",
+                    "column": "name_2",
+                    "type": "string",
+                    "filterable": true
+                },
+                {
+                    "name": "address",
+                    "title": "address",
+                    "column": "address",
+                    "type": "string",
+                    "filterable": true
+                },
+                {
+                    "name": "city",
+                    "title": "city",
+                    "column": "city",
+                    "type": "string",
+                    "filterable": true
+                },
+                {
+                    "name": "postal_code",
+                    "title": "postal_code",
+                    "column": "postal_code",
+                    "type": "string",
+                    "filterable": true
+                },
+                {
+                    "name": "lat",
+                    "title": "lat",
+                    "column": "lat",
+                    "type": "latitude",
+                    "filterable": true
+                },
+                {
+                    "name": "lng",
+                    "title": "lng",
+                    "column": "lng",
+                    "type": "longitude",
+                    "filterable": true
+                },
+                {
+                    "foreignKey": "chaos",
+                    "name": "chaos_id",
+                    "title": "chaos_id",
+                    "column": "chaos_id",
+                    "type": "string",
+                    "filterable": true
+                },
+                {
+                    "name": "area_m2",
+                    "title": "area_m2",
+                    "column": "area_m2",
+                    "type": "decimal(19,6)",
+                    "filterable": true
+                },
+                {
+                    "name": "rent",
+                    "title": "rent",
+                    "column": "rent",
+                    "type": "integer",
+                    "filterable": true
+                },
+                {
+                    "name": "number_of_employeees",
+                    "title": "number_of_employeees",
+                    "column": "number_of_employeees",
+                    "type": "decimal(19,6)",
+                    "filterable": true
+                },
+                {
+                    "name": "wage_per_store",
+                    "title": "wage_per_store",
+                    "column": "wage_per_store",
+                    "type": "decimal(19,6)",
+                    "filterable": true
+                },
+                {
+                    "foreignKey": "zsj_d_dwh",
+                    "name": "kod_zsj_d",
+                    "title": "kod_zsj_d",
+                    "column": "kod_zsj_d",
+                    "type": "string",
+                    "filterable": true
+                },
+                {
+                    "name": "exp_index",
+                    "title": "exp_index",
+                    "column": "exp_index",
+                    "type": "decimal(19,6)",
+                    "filterable": true
+                },
+                {
+                    "name": "demog_index",
+                    "title": "demog_index",
+                    "column": "demog_index",
+                    "type": "decimal(19,6)",
+                    "filterable": true
+                }
+            ],
+            "zoom": {
+                "min": 7,
+                "optimal": 9,
+                "max": 18
+            }
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-22T15:08:47Z",
+            "modifiedAt": "2020-11-28T21:43:39Z",
+            "createdBy": "/rest/accounts/00uulrio7wrtJ9roK0h7",
+            "modifiedBy": "/rest/accounts/00uulrio7wrtJ9roK0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/datasets/da8f9n7khs22id54"
+            }
+        ]
+    }
+}

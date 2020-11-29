@@ -1,0 +1,32 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/dashboards/dkfr1fnl3g8h9bur",
+    "dumpTime": "2020-11-29T13:37:38Z",
+    "version": "9",
+    "content": {
+        "id": "dkfr1fnl3g8h9bur",
+        "name": "recommendation_dashboard",
+        "type": "dashboard",
+        "content": {
+            "blockRows": [
+                {
+                    "type": "indicator",
+                    "indicator": "/rest/projects/$projectId/md/indicators?name=pocet_vsech_pobocek_pompo_indicator",
+                    "indicatorDrill": "/rest/projects/$projectId/md/indicatorDrills?name=hodnoceni_indicator_drill",
+                    "layout": "primary"
+                }
+            ]
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-25T21:00:17Z",
+            "modifiedAt": "2020-11-26T21:37:48Z",
+            "createdBy": "/rest/accounts/00uulrio7wrtJ9roK0h7",
+            "modifiedBy": "/rest/accounts/00uulrio7wrtJ9roK0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/dashboards/dkfr1fnl3g8h9bur"
+            }
+        ]
+    }
+}

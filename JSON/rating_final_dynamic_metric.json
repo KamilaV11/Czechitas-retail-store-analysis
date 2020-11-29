@@ -1,0 +1,135 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/metrics/ragtj4ne4ikct7oo",
+    "dumpTime": "2020-11-29T13:37:54Z",
+    "version": "3",
+    "content": {
+        "id": "ragtj4ne4ikct7oo",
+        "name": "rating_final_dynamic_metric",
+        "type": "metric",
+        "content": {
+            "type": "function_plus",
+            "content": [
+                {
+                    "type": "function_multiply",
+                    "content": [
+                        {
+                            "type": "function_avg",
+                            "content": [
+                                {
+                                    "type": "property",
+                                    "value": "ratings.rating_revenue"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "variable",
+                            "value": "ranking_revenue_variable"
+                        }
+                    ]
+                },
+                {
+                    "type": "function_multiply",
+                    "content": [
+                        {
+                            "type": "function_avg",
+                            "content": [
+                                {
+                                    "type": "property",
+                                    "value": "ratings.rating_profit"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "variable",
+                            "value": "ranking_profit_variable"
+                        }
+                    ]
+                },
+                {
+                    "type": "function_multiply",
+                    "content": [
+                        {
+                            "type": "function_avg",
+                            "content": [
+                                {
+                                    "type": "property",
+                                    "value": "ratings.rating_gross_margin"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "variable",
+                            "value": "ranking_gross_margin_variable"
+                        }
+                    ]
+                },
+                {
+                    "type": "function_multiply",
+                    "content": [
+                        {
+                            "type": "function_avg",
+                            "content": [
+                                {
+                                    "type": "property",
+                                    "value": "ratings.rating_revenue_per_m"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "variable",
+                            "value": "ranking_revenue_per_m_variable"
+                        }
+                    ]
+                },
+                {
+                    "type": "function_multiply",
+                    "content": [
+                        {
+                            "type": "function_avg",
+                            "content": [
+                                {
+                                    "type": "property",
+                                    "value": "ratings.rating_exposure"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "variable",
+                            "value": "ranking_exposure_variable"
+                        }
+                    ]
+                },
+                {
+                    "type": "function_multiply",
+                    "content": [
+                        {
+                            "type": "function_avg",
+                            "content": [
+                                {
+                                    "type": "property",
+                                    "value": "ratings.rating_demography"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "variable",
+                            "value": "ranking_demography_variable"
+                        }
+                    ]
+                }
+            ]
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-22T15:09:21Z",
+            "modifiedAt": "2020-11-22T20:07:48Z",
+            "createdBy": "/rest/accounts/00uulrio7wrtJ9roK0h7",
+            "modifiedBy": "/rest/accounts/00uujf92rrukJ50Hs0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/metrics/ragtj4ne4ikct7oo"
+            }
+        ]
+    }
+}

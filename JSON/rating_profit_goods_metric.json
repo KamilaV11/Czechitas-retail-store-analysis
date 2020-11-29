@@ -1,0 +1,29 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/metrics/qmesceo11qr95u28",
+    "dumpTime": "2020-11-29T13:37:54Z",
+    "version": "1",
+    "content": {
+        "id": "qmesceo11qr95u28",
+        "name": "rating_profit_goods_metric",
+        "type": "metric",
+        "content": {
+            "type": "function_avg",
+            "content": [
+                {
+                    "type": "property",
+                    "value": "ratings.rating_profit_goods"
+                }
+            ]
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-22T15:09:22Z",
+            "createdBy": "/rest/accounts/00uulrio7wrtJ9roK0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/metrics/qmesceo11qr95u28"
+            }
+        ]
+    }
+}

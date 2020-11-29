@@ -1,0 +1,29 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/metrics/lk3hm35apr35gg4e",
+    "dumpTime": "2020-11-29T13:37:54Z",
+    "version": "1",
+    "content": {
+        "id": "lk3hm35apr35gg4e",
+        "name": "rating_fix_cost_vs_revenue_metric",
+        "type": "metric",
+        "content": {
+            "type": "function_avg",
+            "content": [
+                {
+                    "type": "property",
+                    "value": "ratings.rating_fix_cost_vs_revenue"
+                }
+            ]
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-22T15:09:21Z",
+            "createdBy": "/rest/accounts/00uulrio7wrtJ9roK0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/metrics/lk3hm35apr35gg4e"
+            }
+        ]
+    }
+}

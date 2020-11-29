@@ -1,0 +1,39 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/indicators/atiupap669jq914p",
+    "dumpTime": "2020-11-29T13:37:46Z",
+    "version": "4",
+    "content": {
+        "id": "atiupap669jq914p",
+        "name": "rating_gross_margin_indicator",
+        "type": "indicator",
+        "title": "Rating Gross Margin",
+        "description": "Rating of Profit to Revenue Ratio",
+        "content": {
+            "metric": "/rest/projects/$projectId/md/metrics?name=rating_gross_margin_metric",
+            "scale": "standard",
+            "distribution": "geometric",
+            "visualizations": {
+                "areas": true,
+                "dotmap": true,
+                "heatmap": true
+            },
+            "format": {
+                "type": "number",
+                "fraction": 0,
+                "symbol": " points"
+            }
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-22T15:09:40Z",
+            "modifiedAt": "2020-11-22T20:58:23Z",
+            "createdBy": "/rest/accounts/00uulrio7wrtJ9roK0h7",
+            "modifiedBy": "/rest/accounts/00uujf92rrukJ50Hs0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/indicators/atiupap669jq914p"
+            }
+        ]
+    }
+}

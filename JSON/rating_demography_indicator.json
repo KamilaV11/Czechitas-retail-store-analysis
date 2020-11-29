@@ -1,0 +1,43 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/indicators/t40c1g2l3ibamuuo",
+    "dumpTime": "2020-11-29T13:37:45Z",
+    "version": "5",
+    "content": {
+        "id": "t40c1g2l3ibamuuo",
+        "name": "rating_demography_indicator",
+        "type": "indicator",
+        "title": "Rating Demography",
+        "description": "Rating of Local Population to Store (including competitors)",
+        "content": {
+            "metric": "/rest/projects/$projectId/md/metrics?name=rating_demography_metric",
+            "scale": "standard",
+            "distribution": "geometric",
+            "visualizations": {
+                "areas": true,
+                "grid": true,
+                "zones": true,
+                "line": true,
+                "dotmap": true,
+                "heatmap": true
+            },
+            "format": {
+                "type": "number",
+                "fraction": 0,
+                "symbol": " points"
+            }
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-22T15:09:39Z",
+            "modifiedAt": "2020-11-26T07:23:02Z",
+            "createdBy": "/rest/accounts/00uulrio7wrtJ9roK0h7",
+            "modifiedBy": "/rest/accounts/00uujf92rrukJ50Hs0h7"
+        },
+        "etag": "W/\"t40c1g2l3ibamuuo-4\"",
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/indicators/t40c1g2l3ibamuuo"
+            }
+        ]
+    }
+}

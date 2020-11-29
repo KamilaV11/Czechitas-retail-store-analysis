@@ -1,0 +1,63 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/metrics/q5or9o6l97q8267f",
+    "dumpTime": "2020-11-29T13:37:54Z",
+    "version": "4",
+    "content": {
+        "id": "q5or9o6l97q8267f",
+        "name": "pocet_vsech_pobocek_hrackarstvi_metric",
+        "type": "metric",
+        "content": {
+            "type": "function_plus",
+            "content": [
+                {
+                    "type": "function_ifnull",
+                    "content": [
+                        {
+                            "type": "function_count",
+                            "content": [
+                                {
+                                    "type": "property",
+                                    "value": "vsechny_pobocky.store_id"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "number",
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "type": "function_ifnull",
+                    "content": [
+                        {
+                            "type": "function_count",
+                            "content": [
+                                {
+                                    "type": "property",
+                                    "value": "competitors.id"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "number",
+                            "value": 0.0
+                        }
+                    ]
+                }
+            ]
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-24T20:07:14Z",
+            "modifiedAt": "2020-11-24T21:30:52Z",
+            "createdBy": "/rest/accounts/00uujf92rrukJ50Hs0h7",
+            "modifiedBy": "/rest/accounts/00uujf92rrukJ50Hs0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/metrics/q5or9o6l97q8267f"
+            }
+        ]
+    }
+}

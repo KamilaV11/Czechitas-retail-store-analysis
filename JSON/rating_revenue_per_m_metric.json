@@ -1,0 +1,29 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/metrics/kvo3t6efs7n986se",
+    "dumpTime": "2020-11-29T13:37:55Z",
+    "version": "1",
+    "content": {
+        "id": "kvo3t6efs7n986se",
+        "name": "rating_revenue_per_m_metric",
+        "type": "metric",
+        "content": {
+            "type": "function_avg",
+            "content": [
+                {
+                    "type": "property",
+                    "value": "ratings.rating_revenue_per_m"
+                }
+            ]
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-22T15:09:22Z",
+            "createdBy": "/rest/accounts/00uulrio7wrtJ9roK0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/metrics/kvo3t6efs7n986se"
+            }
+        ]
+    }
+}

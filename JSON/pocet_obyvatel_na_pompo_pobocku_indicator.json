@@ -1,0 +1,36 @@
+{
+    "url": "/rest/projects/m6grbb1jnejh1bp1/md/indicators/gp6mcrts75h261u2",
+    "dumpTime": "2020-11-29T13:37:45Z",
+    "version": "1",
+    "content": {
+        "id": "gp6mcrts75h261u2",
+        "name": "pocet_obyvatel_na_pompo_pobocku_indicator",
+        "type": "indicator",
+        "title": "Number of customers per Pompo",
+        "description": "Number of customers",
+        "content": {
+            "metric": "/rest/projects/$projectId/md/metrics?name=pocet_obyvatel_na_pompo_pobocku_metric",
+            "scale": "standard",
+            "distribution": "geometric",
+            "visualizations": {
+                "heatmap": false,
+                "dominance": true
+            },
+            "format": {
+                "type": "number",
+                "fraction": 0,
+                "symbol": ""
+            }
+        },
+        "accessInfo": {
+            "createdAt": "2020-11-22T15:09:36Z",
+            "createdBy": "/rest/accounts/00uulrio7wrtJ9roK0h7"
+        },
+        "links": [
+            {
+                "rel": "self",
+                "href": "/rest/projects/m6grbb1jnejh1bp1/md/indicators/gp6mcrts75h261u2"
+            }
+        ]
+    }
+}
